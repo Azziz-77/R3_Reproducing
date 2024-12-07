@@ -31,8 +31,7 @@ import asyncio
 import nest_asyncio
 
 openai_api_base = "https://api.openai.com/v1"
-openai_api_key = "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"
-
+openai_api_key = "Enter your openai key here"
 # LangSmith
 #os.environ["LANGCHAIN_TRACING_V2"] = "true"
 #os.environ["LANGCHAIN_PROJECT"] = ""
