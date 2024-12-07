@@ -12,7 +12,7 @@ psm:
 ai:
   # api config
   openai_base: "https://api.openai.com/v1"
-  openai_key: "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"
+  openai_key: "Enter your openai key here"
   nvidia_key: "Enter your nvidia api key here"
   # hyperparameters
   temperature: 0
