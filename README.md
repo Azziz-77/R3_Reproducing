@@ -2,7 +2,7 @@
 
 this is an attempt of reproducing AutoPT paper
 
-##Prerequisites
+## Prerequisites
 
 Python 3.9+
 Key Python Libraries:
@@ -19,9 +19,16 @@ PyYAML==6.0.1
 Requests==2.32.3
 termcolor==2.4.0
 
-Hardware Requirements
+## Hardware Requirements
 
 CPU: 4+ cores recommended
 RAM: Minimum 8GB
 Storage: 10GB+ free space
 GPU: Not required but recommended for improved performance
+
+## Installation Instructions
+
+### 1-Clone the repository:
+git clone https://github.com/Azziz-77/R3_Reproducing
+cd R3_Reproducing
+
