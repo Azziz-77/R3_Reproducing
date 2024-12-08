@@ -83,3 +83,31 @@ To run the tool against this specific vulnerability, use the main.py file as the
 ```
 python main.py --name "drupal/CVE-2018-7600" --ip_addr "the ip address of the image"
 ```
+
+## Troubleshooting:
+### OpenAI API Issues:
+You may encounter initial authentication errors and rate limit issues due to missing or exceeded quota on API key. To over come this, ensure an updated API credentials exist in config.yml and autopt.py:
+```
+  openai_base: "https://api.openai.com/v1"
+  openai_key: "[API KEY]"
+```
+### LangSmith Authentication Errors:
+
+You may encounter persistent LangSmith API authentication errors, and LangSmith integration is not essential for core functionality. To over come this, disable LangSmith logging by modifying main.py:
+```
+import os
+os.environ["LANGCHAIN_TRACING_V2"] = "false"
+```
+
+### Xray Scanner Installation:
+you may find xray not running, not found errors due to missing dependency that the tool requires. To overcome this issue, you are required to do manual installation of xray as following:
+```
+bashCopywget https://github.com/chaitin/xray/releases/download/1.9.11/xray_linux_amd64.zip
+unzip xray_linux_amd64.zip
+sudo mv xray_linux_amd64 /usr/local/bin/xray
+sudo chmod +x /usr/local/bin/xray
+```
+
+if you encounter further issues in running the tool, copy the configuration files into the current directory of AutoPT. 
+
+Further troubleshooting will be inserted here as the tool, as of this date (December, 8) is unstable and facing several issues. 
