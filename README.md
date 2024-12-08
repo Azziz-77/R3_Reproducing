@@ -29,6 +29,7 @@ GPU: Not required but recommended for improved performance
 ## Installation Instructions
 
 ### 1-Clone the repository:
+'''
 git clone https://github.com/Azziz-77/R3_Reproducing
 cd R3_Reproducing
-
+'''
