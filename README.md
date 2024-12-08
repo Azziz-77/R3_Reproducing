@@ -111,3 +111,22 @@ sudo chmod +x /usr/local/bin/xray
 if you encounter further issues in running the tool, copy the configuration files into the current directory of AutoPT. 
 
 Further troubleshooting will be inserted here as the tool, as of this date (December, 8) is unstable and facing several issues. 
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/72e4f2c9-fbdc-44f9-b04e-567b7b3314f3)
+This visual illutrates a successful running of the docker image.
+
+![image](https://github.com/user-attachments/assets/5ff4f409-6646-4d00-849a-6fbea932c3af)
+This visual shows a successful running of the tool
+
+![image](https://github.com/user-attachments/assets/d5d43182-05dd-415b-ad28-d933b6999992)
+This visual shows that the xray toolsuccessfully found the drupal vulnerability against the target docker image
+
+![image](https://github.com/user-attachments/assets/4681cf66-b938-43a1-bc45-e5342594cbdf)
+This shows the tool successfully retrieved the link for the drupal vulnerability from the xray results
+
+![image](https://github.com/user-attachments/assets/c7dccc37-113e-4e8a-9cf7-73796beb9e6f)
+So far, this is the progress of the tool, which is not complete. The paper to reproduce states that the tool should verify the successful explotaiton or the failing of explotaiton in the end. Therefore, further troubleshooting and code modification will be done.
+
+
+
